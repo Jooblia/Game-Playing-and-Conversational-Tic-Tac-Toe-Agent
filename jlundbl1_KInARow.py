@@ -29,7 +29,7 @@ if USE_LLM == True:
     import os
     import google.generativeai as genai
     # pip install -q -U google-generativeai
-    genai.configure(api_key="AIzaSyB28DTHzd45GHWkBHXa0lfboIOztl43rRw")
+    genai.configure(api_key="(insert api key here)")
 
     generation_config = {
         "temperature": 0,
